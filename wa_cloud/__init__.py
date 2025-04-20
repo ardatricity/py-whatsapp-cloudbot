@@ -8,7 +8,7 @@ providing an object-oriented interface for sending messages, handling webhooks,
 managing media, and more.
 """
 
-__version__ = "0.1.0"  # Current library version
+__version__ = "0.1.2"  # Current library version
 
 import logging
 
