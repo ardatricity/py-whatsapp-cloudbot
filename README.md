@@ -1,6 +1,6 @@
-# python-whatsapp-cloudbot
+# py-whatsapp-cloudbot
 
-[![PyPI version](https://badge.fury.io/py/python-whatsapp-cloudbot.svg)](https://badge.fury.io/py/python-whatsapp-cloudbot) 
+[![PyPI version](https://badge.fury.io/py/py-whatsapp-cloudbot.svg)](https://badge.fury.io/py/py-whatsapp-cloudbot) 
 [![License: LGPL-3](https://img.shields.io/badge/license-LGPL3-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An asynchronous, easy-to-use Python library for interacting with the official WhatsApp Cloud API, inspired by the structure and ease of use of `python-telegram-bot`.
@@ -24,7 +24,7 @@ This library provides an object-oriented interface to send messages, handle inco
 Make sure you have Python 3.8 or higher installed.
 
 ```bash
-pip install python-whatsapp-cloudbot
+pip install py-whatsapp-cloudbot
 ```
 
 ## Getting Started: Your First Echo Bot
@@ -82,7 +82,7 @@ else:
 try:
     from fastapi import FastAPI
 except ImportError:
-    logger.error("FastAPI not found. Install with: pip install 'python-whatsapp-cloudbot[fastapi]'")
+    logger.error("FastAPI not found. Install with: pip install 'py-whatsapp-cloudbot[fastapi]'")
     exit(1)
 
 try:
@@ -92,7 +92,7 @@ try:
     )
     from wa_cloud.webhooks import setup_fastapi_webhook
 except ImportError as e:
-     logger.error(f"Failed to import wa_cloud components. Install with `pip install -e .` or `pip install python-whatsapp-cloudbot`: {e}")
+     logger.error(f"Failed to import wa_cloud components. Install with `pip install -e .` or `pip install py-whatsapp-cloudbot`: {e}")
      exit(1)
 
 # --- Configuration ---
@@ -319,7 +319,7 @@ except Exception as e:
 
 ## Contributing
 
-Contributions are welcome! Please feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/ardatricity/python-whatsapp-cloudbot).
+Contributions are welcome! Please feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/ardatricity/py-whatsapp-cloudbot).
 
 ## License
 
