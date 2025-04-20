@@ -5,16 +5,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="python-whatsapp-cloudbot",
-    version="0.1.2",
+    version="1.3.1",
     author="Arda Koçak",
     author_email="ardatricity@gmail.com",
     description="An asynchronous Python library for the WhatsApp Cloud API.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ardatricity/python-whatsapp-cloudbot",
+    url="https://github.com/ardatricity/py-whatsapp-cloudbot",
     project_urls={
-        "Bug Tracker": "https://github.com/ardatricity/python-whatsapp-cloudbot/issues",
-        "Repository": "https://github.com/ardatricity/python-whatsapp-cloudbot",
+        "Bug Tracker": "https://github.com/ardatricity/py-whatsapp-cloudbot/issues",
+        "Repository": "https://github.com/ardatricity/py-whatsapp-cloudbot",
     },
     classifiers=[
         "Development Status :: 3 - Alpha",
